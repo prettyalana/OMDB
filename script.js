@@ -1,7 +1,6 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", async () => {
-  // const myArray = await getJSON();
   const form = document.getElementById("form-id");
   const params = document.getElementById("movie-name");
 
