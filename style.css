@@ -1,1 +1,17 @@
-/* TODO: Add styling */
+body {
+    height: 100vh;
+}
+
+#form-id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+#movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
