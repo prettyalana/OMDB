@@ -32,6 +32,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       if (movieInfo == "Poster") {
         img.src = i;
+        img.onerror = () => {
+          //fallback image
+          img.src = "https://images.pexels.com/photos/5662857/pexels-photo-5662857.png";
+          img.classList.add("fallback-image")
+        }
       } else {
         paragraph.textContent = keyAndValue;
       }
